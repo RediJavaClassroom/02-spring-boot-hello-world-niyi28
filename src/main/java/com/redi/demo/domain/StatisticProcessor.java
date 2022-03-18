@@ -23,6 +23,7 @@ public class StatisticProcessor {
             forEveryEntry.put("name", entry.getKey());
             forEveryEntry.put("greeting", entry.getValue());
             jsonArray.put(forEveryEntry);
+
         }
         return jsonArray;
     }
